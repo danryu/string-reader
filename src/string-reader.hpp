@@ -1,4 +1,5 @@
-#pragma once
+#ifndef STRING_READER_STRING_READER_HPP
+#define STRING_READER_STRING_READER_HPP
 #include "macros/unwrap.hpp"
 
 struct StringReader {
@@ -69,3 +70,5 @@ struct StringReader {
         return ret;
     }
 };
+
+#endif // STRING_READER_STRING_READER_HPP
